@@ -18,6 +18,10 @@ resource "google_container_cluster" "primary" {
       "https://www.googleapis.com/auth/trace.append",
     ]
   }
+
+  # Example addition: network and subnetwork (optional)
+  network    = "default"
+  subnetwork = "default"
 }
 
 # Defining output variables
