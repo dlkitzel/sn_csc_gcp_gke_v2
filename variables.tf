@@ -4,7 +4,6 @@ variable "project_id" {
 }
 
 variable "credentials" {
-  description = "The credentials which will be used to provision resources."
   type        = string
 }
 
