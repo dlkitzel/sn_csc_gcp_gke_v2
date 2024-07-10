@@ -20,3 +20,9 @@ variable "machine_type" {
   type        = string
   default     = "n1-standard-1"
 }
+
+variable "zone" {
+  description = "The zones in which to provision the resources."
+  type        = string
+  default     = "us-central1-a"
+}
