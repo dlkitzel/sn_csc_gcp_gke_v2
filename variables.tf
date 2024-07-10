@@ -3,6 +3,11 @@ variable "project_id" {
   type        = string
 }
 
+variable "credentials" {
+  description = "The credentials which will be used to provision resources."
+  type        = string
+}
+
 variable "region" {
   description = "The region in which to provision resources."
   type        = string
